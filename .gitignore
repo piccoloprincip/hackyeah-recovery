@@ -1,0 +1,15 @@
+node_modules/
+.expo/
+dist/
+web-build/
+.DS_Store
+*.log
+.env
+.env.*
+!.env.example
+coverage/
+preview-*.png
+*.pem
+*.key
+*.p12
+*.mobileprovision

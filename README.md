@@ -7,6 +7,8 @@ Mobilny prototyp aplikacji wspierającej rehabilitację dłoni, przygotowany na 
 Wymagania: Node.js 20 lub nowszy oraz npm.
 
 ```sh
+git clone https://github.com/piccoloprincip/hackyeah-recovery.git
+cd hackyeah-recovery
 npm ci
 npm run web
 ```
@@ -14,6 +16,20 @@ npm run web
 Podgląd przeglądarkowy jest dostępny pod adresem wyświetlonym przez Expo, zwykle `http://localhost:8081`.
 
 Na iOS: `npm run ios` (macOS i Xcode). Na Androidzie: `npm run android` (Android SDK i emulator lub urządzenie). Projekt korzysta z Expo SDK 53; klient mobilny musi obsługiwać tę wersję SDK.
+
+## Wykorzystane technologie
+
+- **JavaScript / JSX, React 19 i React Native 0.79** — logika i interfejs aplikacji.
+- **Expo SDK 53 oraz Metro** — środowisko uruchomieniowe i obsługa projektu mobilnego.
+- **React Native Web 0.20** — podgląd aplikacji w przeglądarce.
+- **Expo Image Picker** — wybór zdjęcia RTG z urządzenia.
+- **React Native SVG** — ikony interfejsu; wykresy i paski postępu korzystają z komponentów React Native.
+
+## Deklaracja wykorzystania AI
+
+Przy tworzeniu projektu korzystaliśmy z **ChatGPT i OpenAI Codex** do rozwijania koncepcji, projektowania interfejsu, generowania i modyfikowania kodu oraz przygotowania dokumentacji. Wykorzystaliśmy również dostarczoną grafikę koncepcyjną Aparatu wygenerowaną przy użyciu **Google Gemini**.
+
+Obecna aplikacja nie wywołuje modeli AI podczas działania i nie analizuje medycznie zdjęć RTG. Podgląd dłoni, pomiary oraz wspomaganie ruchu są przygotowane na potrzeby demonstracji.
 
 ## Funkcje
 

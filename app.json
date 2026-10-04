@@ -5,6 +5,12 @@
     "version": "0.1.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
-    "assetBundlePatterns": ["**/*"]
+    "assetBundlePatterns": ["**/*"],
+    "web": {
+      "output": "static"
+    },
+    "experiments": {
+      "baseUrl": "/hackyeah-recovery"
+    }
   }
 }

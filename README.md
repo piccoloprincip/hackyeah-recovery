@@ -15,6 +15,10 @@ npm run web
 
 Podgląd przeglądarkowy jest dostępny pod adresem wyświetlonym przez Expo, zwykle `http://localhost:8081`.
 
+## Publikacja na GitHub Pages
+
+Workflow `.github/workflows/deploy.yml` buduje wersję webową Expo i publikuje ją na GitHub Pages po każdym pushu do `main`. W ustawieniach repozytorium wybierz **Settings → Pages → Source: GitHub Actions**. Po zakończeniu workflow aplikacja będzie dostępna pod adresem `https://piccoloprincip.github.io/hackyeah-recovery/`.
+
 Na iOS: `npm run ios` (macOS i Xcode). Na Androidzie: `npm run android` (Android SDK i emulator lub urządzenie). Projekt korzysta z Expo SDK 53; klient mobilny musi obsługiwać tę wersję SDK.
 
 ## Wykorzystane technologie

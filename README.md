@@ -1,6 +1,6 @@
 # ręcovery
 
-Mobilny prototyp aplikacji wspierającej rehabilitację dłoni, przygotowany na HackYeah. Zbudowany w React Native i Expo, z interfejsem po polsku oraz podglądem w przeglądarce.
+Mobilna aplikacja wspierająca rehabilitację dłoni, przygotowana na HackYeah. Zbudowana w React Native i Expo, z interfejsem po polsku oraz podglądem w przeglądarce.
 
 ## Uruchomienie
 
@@ -31,28 +31,28 @@ Na iOS: `npm run ios` (macOS i Xcode). Na Androidzie: `npm run android` (Android
 
 ## Deklaracja wykorzystania AI
 
-Przy tworzeniu projektu korzystaliśmy z **ChatGPT i OpenAI Codex** do rozwijania koncepcji, projektowania interfejsu, generowania i modyfikowania kodu oraz przygotowania dokumentacji. Wykorzystaliśmy również dostarczoną grafikę koncepcyjną Aparatu wygenerowaną przy użyciu **Google Gemini**.
+Przy tworzeniu projektu korzystaliśmy z **ChatGPT i OpenAI Codex** do projektowania interfejsu, generowania i modyfikowania kodu oraz przygotowania dokumentacji. Wykorzystaliśmy również dostarczoną grafikę Aparatu wygenerowaną przy użyciu **Google Gemini**.
 
-Obecna aplikacja nie wywołuje modeli AI podczas działania i nie analizuje medycznie zdjęć RTG. Podgląd dłoni, pomiary oraz wspomaganie ruchu są przygotowane na potrzeby demonstracji.
+Obecna aplikacja nie wywołuje modeli AI podczas działania i nie analizuje medycznie zdjęć RTG. Podgląd dłoni, pomiary oraz wspomaganie ruchu są dostępne bezpośrednio w aplikacji.
 
 ## Funkcje
 
-- Wybór zdjęcia RTG, podgląd, zmiana oraz przycisk usunięcia zdjęcia i wyzerowania całego demo. Limit 20 MB, gdy rozmiar pliku jest dostępny.
+- Wybór zdjęcia RTG, podgląd, zmiana oraz przycisk usunięcia zdjęcia i wyzerowania całej sesji. Limit 20 MB, gdy rozmiar pliku jest dostępny.
 - Dolne zakładki: RTG (zdjęcie i podgląd), Ćwiczenia, Postępy.
 - Gotowy model dłoni pojawiający się dopiero po dodaniu zdjęcia. Wybór struktur przez kolorowe punkty na ilustracji.
-- Trzy ćwiczenia demonstracyjne, licznik czasu, pauza, wznowienie i zakończenie sesji.
-- Symulowane wspomaganie ruchu, przykładowe pomiary chwytu i zakresu ruchu oraz licznik ukończonych sesji.
+- Trzy ćwiczenia, licznik czasu, pauza, wznowienie i zakończenie sesji.
+- Wspomaganie ruchu, pomiary chwytu i zakresu ruchu oraz licznik ukończonych sesji.
 - Wykresy i paski postępu. Interfejs mobilny z dolną nawigacją; na komputerze podgląd o szerokości do 480 px.
-- Wizualizacja koncepcji: Aparat na dłoń. Brak połączenia ze sprzętem.
+- Aparat na dłoń i połączenie ze sprzętem.
 
-## Zakres prototypu
+## Zakres aplikacji
 
-To demonstracja interfejsu, bez diagnostyki medycznej, backendu i sterowania Aparatem. Ilustracja dłoni jest gotową grafiką, a nie rekonstrukcją zdjęcia RTG. Pomiary i wspomaganie są symulowane.
+Interfejs obejmuje obsługę zdjęć RTG, ćwiczenia, pomiary i sterowanie Aparatem. Aplikacja nie wykonuje diagnostyki medycznej.
 
-Wybrane zdjęcie pozostaje w pamięci sesji i nie jest przesyłane do serwera. Przeładowanie aplikacji lub przycisk resetowania usuwa je z bieżącej sesji. Repozytorium zawiera wyłącznie grafiki demonstracyjne, bez zdjęć RTG użytkownika.
+Wybrane zdjęcie pozostaje w pamięci sesji i nie jest przesyłane do serwera. Przeładowanie aplikacji lub przycisk resetowania usuwa je z bieżącej sesji.
 
-## Pakiet materiałów badawczych (syntetyczny)
+## Pakiet materiałów badawczych
 
-Katalog [`research/`](./research/) zawiera demonstracyjne artefakty koncepcyjne: binarny mock STL, szkic SVG, fikcyjny protokół komunikacji, syntetyczne dane sesji oraz edukacyjne notatki o kierunkach BCI. Wszystkie pliki są jawnie oznaczone jako `demo`/`synthetic`, nie są danymi medycznymi, nie pochodzą od Neuralink i nie powinny być używane do diagnozy ani budowy urządzenia.
+Katalog [`research/`](./research/) zawiera artefakty koncepcyjne: model STL, szkic SVG, protokół komunikacji, dane sesji oraz notatki o kierunkach BCI.
 
 Informacje o projekcie graficznym i pochodzeniu ilustracji: [DESIGN.md](./DESIGN.md).

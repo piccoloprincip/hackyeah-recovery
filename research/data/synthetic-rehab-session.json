@@ -1,0 +1,28 @@
+{
+  "dataset": "synthetic-rehab-session-demo",
+  "notice": "Fictional data for UI testing only; not medical evidence and not linked to a real person.",
+  "schema_version": "0.1-demo",
+  "participant": {
+    "id": "SYNTH-001",
+    "age_band": "synthetic",
+    "consent": "not_applicable_demo"
+  },
+  "sessions": [
+    {
+      "session_id": "demo-2026-04-01-a",
+      "exercise": "gentle_finger_motion",
+      "duration_s": 120,
+      "grip_score_normalized": 0.52,
+      "range_of_motion_deg": 38,
+      "clinician_review": "not_performed"
+    },
+    {
+      "session_id": "demo-2026-04-03-a",
+      "exercise": "thumb_to_fingertips",
+      "duration_s": 90,
+      "grip_score_normalized": 0.58,
+      "range_of_motion_deg": 42,
+      "clinician_review": "not_performed"
+    }
+  ]
+}

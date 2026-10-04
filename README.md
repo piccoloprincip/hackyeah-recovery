@@ -51,4 +51,8 @@ To demonstracja interfejsu, bez diagnostyki medycznej, backendu i sterowania Apa
 
 Wybrane zdjęcie pozostaje w pamięci sesji i nie jest przesyłane do serwera. Przeładowanie aplikacji lub przycisk resetowania usuwa je z bieżącej sesji. Repozytorium zawiera wyłącznie grafiki demonstracyjne, bez zdjęć RTG użytkownika.
 
+## Pakiet materiałów badawczych (syntetyczny)
+
+Katalog [`research/`](./research/) zawiera demonstracyjne artefakty koncepcyjne: binarny mock STL, szkic SVG, fikcyjny protokół komunikacji, syntetyczne dane sesji oraz edukacyjne notatki o kierunkach BCI. Wszystkie pliki są jawnie oznaczone jako `demo`/`synthetic`, nie są danymi medycznymi, nie pochodzą od Neuralink i nie powinny być używane do diagnozy ani budowy urządzenia.
+
 Informacje o projekcie graficznym i pochodzeniu ilustracji: [DESIGN.md](./DESIGN.md).
